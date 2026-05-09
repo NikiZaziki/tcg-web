@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCG Platform - Dashboard</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <nav class="sidebar">
+            <div class="sidebar-header">
+                <h1>TCG Platform</h1>
+            </div>
+            <ul class="sidebar-nav">
+                <li><a href="#" class="nav-link active" data-page="dashboard">Dashboard</a></li>
+                <li><a href="#" class="nav-link" data-page="collection">Collection</a></li>
+                <li><a href="#" class="nav-link" data-page="decks">Decks</a></li>
+                <li><a href="#" class="nav-link" data-page="shop">Shop</a></li>
+                <li><a href="#" class="nav-link" data-page="matches">Matches</a></li>
+                <li><a href="#" class="nav-link" data-page="leaderboard">Leaderboard</a></li>
+            </ul>
+            <div class="sidebar-footer">
+                <div class="user-info">
+                    <span id="username">Loading...</span>
+                </div>
+                <button id="logoutBtn" class="btn btn-secondary">Logout</button>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <div id="page-content">
+                <!-- Content loaded dynamically -->
+            </div>
+        </main>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
