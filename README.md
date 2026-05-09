@@ -2,6 +2,8 @@
 
 A comprehensive, production-ready web platform for multiple trading card games (TCGs) with digital card collection, booster pack economy, and online competitive gameplay.
 
+**Repository:** https://github.com/NikiZaziki/tcg-web
+
 ## Features
 
 - **Multi-Game Support**: Play multiple TCGs (Pokémon, Yu-Gi-Oh, Magic, etc.) on a single platform
